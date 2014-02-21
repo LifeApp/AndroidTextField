@@ -27,10 +27,10 @@ public class DisplayMessageActivity extends Activity {
 		}
 		
 		TextView textView = new TextView(this);
-		textView.setTextSize(30);
+		textView.setTextSize(40);
 		String otherMessage;
 		otherMessage = message+"\n";
-		for(int k = 0; k < 10; k++)
+		for(int k = 0; k < 3; k++)
 		{
 			otherMessage = otherMessage+otherMessage;
 		}
